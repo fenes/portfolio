@@ -1,0 +1,172 @@
+{
+    "name": "Ferit Enes Güzel",
+    "landing": {
+        "title": "Hi, I'm Ferit Enes Güzel",
+        "subtitles": [
+            "Full-stack developer 🌐",
+            "Cross-platform developer 📱💻",
+            "Experienced fintech 📈",
+            "Exploring cloud ☁️"
+        ],
+        "professionalDetails": [
+            {
+                "alt": "feritenesguzel",
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/feritenesguzel/"
+            },
+            {
+                "alt": "feritguzel",
+                "icon": "stackoverflow",
+                "link": "https://stackoverflow.com/users/4782938/ferit-g%c3%bczel"
+            },
+            {
+                "alt": "fenes",
+                "icon": "github",
+                "link": "https://github.com/fenes"
+            },
+            {
+                "alt": "Email",
+                "icon": "gmail",
+                "link": "mailto:fenesguzel@gmail.com"
+            }
+        ]
+    },
+    "skills": {
+        "Languages known": [
+            {
+                "alt": "C#",
+                "icon": "C Sharp",
+                "backgroundColor": "#239120"
+            },
+            "Java",
+            "HTML5",
+            "JavaScript",
+            "CSS3"
+        ],
+        "Frontend": [
+            "React",
+            "Redux",
+            "Next.js",
+            "Vercel",
+            "Material-UI",
+            "Bootstrap"
+        ],
+        "Backend, Database and Cloud": [
+            "Oracle",
+            {
+                "alt": "Microsoft SQL Server",
+                "icon": "microsoftsqlserver",
+                "backgroundColor": "#CC2927"
+            },
+            "MongoDB",
+            "MySQL",
+            "Node.js",
+            "PostgreSQL",
+            "Heroku",
+            "Firebase"
+        ],
+        "Mobile": [
+            "Android",
+            {
+                "alt": "React_Native",
+                "icon": "react",
+                "backgroundColor": "#424242"
+            },
+            "Expo"
+        ]
+    },
+    "projects": {
+        "baseURI": "https://api.github.com/repos/fenes/",
+        "repositories": [
+            "Genrealize",
+            "Portfolio",
+            "cosmicom",
+            "Discord-Google-Drive-Bot",
+            "GitHits",
+            "1DBM"
+        ]
+    },
+    "experience": {
+        "Work Experience": [
+            {
+                "organization": "Akbank - Innovance Consultancy",
+                "role": "Senior Software Consultant",
+                "type": "Full-time",
+                "startDate": "2020-08-17",
+                "endDate": "..",
+                "city": "Remote",
+                "state": "Antalya",
+                "country": "Turkey",
+                "url": "https://www.linkedin.com/company/innovance-consultancy/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C4E0BAQHX6IzLNvPgEg/company-logo_200_200/0/1631567348861?e=1651104000&v=beta&t=g6GpqBVyh5ziiepJSlW_lFZvD30_i0wMNbgIBlqI4pE"
+            },
+            {
+                "organization": "Migros - Kafein",
+                "role": "Senior Full-Stack Developer",
+                "type": "Full-time",
+                "startDate": "2019-07-02",
+                "endDate": "2020-08-17",
+                "city": "Remote",
+                "state": "Antalya",
+                "country": "Turkey",
+                "url": "https://www.linkedin.com/company/migros-ticaret/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C560BAQGnoFVp_NsYcQ/company-logo_200_200/0/1519855985122?e=1651104000&v=beta&t=TTKYBoDWuUxieIrF7_nAYBIKrjM6PsfzbXoM42N5Bmo"
+            },
+            {
+                "organization": "IATI",
+                "role": "Back-end Developer",
+                "type": "Full-time",
+                "startDate": "2018-12-17",
+                "endDate": "2020-07-02",
+                "city": "Antalya",
+                "state": "Muratpaşa",
+                "country": "Turkey",
+                "url": "https://www.linkedin.com/company/iati/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C560BAQEa-5QJbv4vIQ/company-logo_200_200/0/1519893624991?e=1651104000&v=beta&t=HuKUL5PnN6gOPYO7GEjnk6vDW0p7Ta36GZkAQkdq2zA"
+            },
+            {
+                "organization": "Softtech",
+                "role": "Full-stack Developer",
+                "type": "Full-time",
+                "startDate": "2017-10-02",
+                "endDate": "2018-12-17",
+                "city": "Ankara",
+                "state": "Çankaya",
+                "country": "Turkey",
+                "url": "https://www.linkedin.com/company/softtechas/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C4D0BAQERuaW8GFfktg/company-logo_200_200/0/1605078316315?e=1651104000&v=beta&t=Rs39gZf5as-p5SSMTd0j2XTsb9NRZlVwliZGio-wgJA"
+            }
+        ]
+    },
+    "about": {
+        "description": "I am a full-stack web developer, pursuing my Bsc in Computer Engineering from Hacettepe University. I strive to make meaningful applications with the best UI practices.",
+        "picture": "/profile.jpg",
+        "social": [
+            {
+                "alt": "birinebakmistim",
+                "icon": "twitter",
+                "link": "https://twitter.com/birinebakmistim"
+            }
+        ]
+    },
+    "theme": {
+        "light": {
+            "palette": {
+                "type": "light",
+                "background": {
+                    "paper": "#fff",
+                    "default": "#fafafa"
+                }
+            }
+        },
+        "dark": {
+            "palette": {
+                "type": "dark",
+                "background": {
+                    "paper": "#303030",
+                    "default": "#212121"
+                }
+            }
+        }
+    }
+}
