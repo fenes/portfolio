@@ -66,7 +66,7 @@ export default function Experience() {
     const animate = useAnimate(animRef)
 
     return (
-        <Grid direction="row" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
+        <Grid direction="row" container justify="center" alignItems="center" spacing={5} className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom align="center">
                     Experience
@@ -125,7 +125,7 @@ export default function Experience() {
                                                                 </Avatar>
                                                             }
                                                             title={organization}
-                                                            subheader={role + " - " + type}
+                                                            subheader={role}
                                                         />
                                                         <CardHeader
                                                             avatar={<DateRange />}
@@ -135,7 +135,7 @@ export default function Experience() {
                                                         />
                                                         <CardHeader
                                                             avatar={<LocationCity />}
-                                                            subheader={`${city}, ${state}, ${country}`}
+                                                            subheader={`${state}, ${city}, ${country}`}
                                                             className={classes.cardHeader}
                                                         />
                                                     </CardActionArea>
