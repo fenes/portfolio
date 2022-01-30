@@ -53,7 +53,7 @@ export default function Landing() {
     const mdDown = useMediaQuery(theme.breakpoints.down('sm'));
 
     return (
-        <Grid container justify="center" alignItems="center" className={classes.cont}>
+        <Grid container justifyContent="center" alignItems="center" className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant={mdDown ? "h2" : "h1"}>
                     {landing.title}

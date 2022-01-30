@@ -64,7 +64,7 @@ export default function Skills() {
     const animate = useAnimate(animRef)
 
     return (
-        <Grid container justify="center" alignItems="center" spacing={10} className={classes.cont}>
+        <Grid container justifyContent="center" alignItems="center" spacing={10} className={classes.cont}>
             <Grid item xs={12} lg={6} ref={animRef}>
                 <Typography variant="h2" gutterBottom align="center">
                     Skills
@@ -89,7 +89,7 @@ export default function Skills() {
                             <Typography variant="h4" align={textAlign} gutterBottom component="p">
                                 {title}
                             </Typography>
-                            <Grid container item direction="row" spacing={1} justify="center">
+                            <Grid container item direction="row" spacing={1} justifyContent="center">
                                 {
                                     wrappedSkills[title].map(({ alt, icon }, i) =>
                                         <Grid item key={i}>

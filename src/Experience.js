@@ -66,7 +66,7 @@ export default function Experience() {
     const animate = useAnimate(animRef)
 
     return (
-        <Grid direction="row" container justify="center" alignItems="center" spacing={5} className={classes.cont}>
+        <Grid direction="row" container justifyContent="center" alignItems="center" spacing={5} className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom align="center">
                     Experience
@@ -91,7 +91,7 @@ export default function Experience() {
                             <Typography variant="h4" align={textAlign} gutterBottom component="p">
                                 {title}
                             </Typography>
-                            <Grid container item direction="row" spacing={1} justify="center">
+                            <Grid container item direction="row" spacing={1} justifyContent="center">
                                 {
                                     experience[title].map(({
                                         organization,
